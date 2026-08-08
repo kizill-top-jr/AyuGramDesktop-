@@ -25,7 +25,7 @@ add_subdirectory(codegen)
 add_subdirectory(lib_icu)
 # AyuGram filters
 
-get_filename_component(src_loc SourceFiles REALPATH)
+get_filename_component(src_loc src REALPATH)
 get_filename_component(res_loc Resources REALPATH)
 
 include(cmake/telegram_options.cmake)
@@ -240,6 +240,7 @@ set(ayugram_files
         ayu/data/entities.h
         ayu/data/ayu_database.cpp
         ayu/data/ayu_database.h
+        src/qss/QssManager.cpp
 
         info/profile/info_profile_music_button.cpp
         info/profile/info_profile_music_button.h
