@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=qssgram Desktop
-Comment=Desktop version of QssGram - ToS breaking Telegram client
+Comment=Desktop version of qssgram - ToS breaking Telegram client
 TryExec=qssgram
 Exec=env DESKTOPINTEGRATION=1 qssgram -- %U
 Icon=com.qssgram.desktop
