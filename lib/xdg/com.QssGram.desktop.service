@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=com.QssGram.desktop
-Exec=@CMAKE_INSTALL_FULL_BINDIR@/QssGram
