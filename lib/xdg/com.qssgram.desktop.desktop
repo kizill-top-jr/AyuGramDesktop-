@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=QssGram Desktop
+Name=qssgram Desktop
 Comment=Desktop version of QssGram - ToS breaking Telegram client
-TryExec=QssGram
-Exec=env DESKTOPINTEGRATION=1 QssGram -- %U
-Icon=com.QssGram.desktop
+TryExec=qssgram
+Exec=env DESKTOPINTEGRATION=1 qssgram -- %U
+Icon=com.qssgram.desktop
 Terminal=false
-StartupWMClass=QssGram
+StartupWMClass=qssgram
 Type=Application
 Categories=Chat;Network;InstantMessaging;Qt;
 MimeType=x-scheme-handler/tg;x-scheme-handler/tonsite;
@@ -17,6 +17,6 @@ X-GNOME-UsesNotifications=true
 X-GNOME-SingleWindow=true
 
 [Desktop Action quit]
-Exec=QssGram -quit
-Name=Quit QssGram
+Exec=qssgram -quit
+Name=Quit qssgram
 Icon=application-exit
