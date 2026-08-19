@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop">
-    <id>com.ayugram.desktop</id>
+    <id>com.qssgram.desktop</id>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0</project_license>
-    <name>AyuGram Desktop</name>
-    <summary>Desktop version of AyuGram - ToS breaking Telegram client</summary>
+    <name>QssGram Desktop</name>
+    <summary>Desktop version of QssGram — полностью кастомизируемый Telegram-клиент через QSS</summary>
     <description>
-        <p>Telegram Desktop with Ghost Mode, Anti-Recall and cool design.</p>
+        <p>Telegram Desktop с поддержкой QSS (Qt Style Sheets) — меняй интерфейс на лету без пересборки.</p>
+        <p>Вдохновлён идеей Arch Linux: дать пользователю полный контроль над внешним видом.</p>
     </description>
     <categories>
         <category>Network</category>
         <category>InstantMessaging</category>
     </categories>
-    <update_contact>helpdesk_at_radolyn.com</update_contact>
-    <developer_name>Radolyn Labs</developer_name>
-    <url type="homepage">https://ayugram.one/</url>
-    <url type="faq">https://t.me/AyuGramFAQ</url>
-    <url type="bugtracker">https://t.me/ayugramchat/1262</url>
-    <url type="translate">https://crowdin.com/project/ayugram</url>
-    <url type="vcs-browser">https://github.com/AyuGram/AyuGramDesktop</url>
-    <url type="contribute">https://github.com/AyuGram/AyuGramDesktop/blob/dev/.github/CONTRIBUTING.md</url>
+    <update_contact>t.me/kizill_top_jr</update_contact>
+    <developer_name>KIZILL_TOP_JR</developer_name>
+    <url type="homepage">https://t.me/QssGram</url>
+    <url type="faq">https://t.me/QssGram_Chat</url>
+    <url type="bugtracker">https://github.com/kizill-top-jr/QssGramDesktop/issues</url>
+    <url type="translate">https://crowdin.com/project/qssgram</url>
+    <url type="vcs-browser">https://github.com/kizill-top-jr/QssGramDesktop</url>
+    <url type="contribute">https://github.com/kizill-top-jr/QssGramDesktop/blob/master/.github/CONTRIBUTING.md</url>
     <screenshots>
       <screenshot type="default">
-        <image>https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/docs/assets/preview.png</image>
+        <image>https://raw.githubusercontent.com/kizill-top-jr/QssGramDesktop/master/resources/screenshot.png</image>
       </screenshot>
     </screenshots>
     <keywords>
@@ -34,7 +35,9 @@
         <keyword>chat</keyword>
         <keyword>sms</keyword>
         <keyword>im</keyword>
-        <keyword>ayugram</keyword>
+        <keyword>qssgram</keyword>
+        <keyword>qss</keyword>
+        <keyword>qt</keyword>
     </keywords>
     <requires>
         <display_length compare="ge">medium</display_length>
@@ -75,8 +78,8 @@
         <content_attribute id="money-gambling">none</content_attribute>
         <content_attribute id="money-advertising">moderate</content_attribute>
     </content_rating>
-    <launchable type="desktop-id">com.ayugram.desktop.desktop</launchable>
+    <launchable type="desktop-id">com.qssgram.desktop.desktop</launchable>
     <provides>
-        <binary>AyuGram</binary>
+        <binary>QssGram</binary>
     </provides>
 </component>
